@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Librería de iconos -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Link a google font Special Gothic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="img/favicon-ang.PNG" type="image/x-icon" />
+    <!-- Link a google font Playwrite -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Special+Gothic+Condensed+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Alberto Velasco Gutierrez/Contacto</title>
+  </head>
+  <body>
+    <section class="box-principal">
+      <div class="color-box">
+        <header>
+          <a href="index.html" class="logo-link">Alberto Velasco Gutierrez</a>
+          <!-- Menú -->
+          <nav class="nav-header">
+            <ion-icon name="code-sharp"></ion-icon>
+            <ul class="list-header">
+              <li><a href="#">Quién soy</a></li>
+              <li><a href="#">CV</a></li>
+              <li><a href="#">Proyectos</a></li>
+              <li><a href="#" class="active">Contacto</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="contenido">
+          <div class="titulo">
+           <p class="desc-form">En el caso que se quieran poner en contacto conmigo, pueden hacerlo a través de este formulario o por los enlaces a mis redes sociales que aparecen en la parte inferior de la pantalla. </p>
+          <form name="contactForm" method="post" action="mailto:alberto.velasco376@comunidadunir.net">
+            <fieldset class="form-box">
+              <legend>Contacto</legend>
+              <div class="bloque-form">
+                <div>
+                  <label for="name">Nombre:</label>
+                  <input type="text" id="name" placeholder="Nombre..."/>
+                </div>
+                <div>
+                  <label for="firstName">Apellidos:</label>
+                  <input type="text" id="firstName" placeholder="Apellidos..."/>
+                </div>
+              </div>
+              <div class="textarea-form">
+                <label for="text">Texto</label>
+                <textarea id="text"></textarea>
+              </div>
+              <div>
+                <input type="submit" class="button" value="Enviar"/>
+              </div>
+            </fieldset>
+          </form>
+          </div>
+        </div>
+        <footer>
+          <div class="copyright">
+            <p>
+              &copy;Web personal creada para la materia de Lenguage de Marcas
+              <br />
+              CFGS DAM
+            </p>
+          </div>
+          <ul class="redesSociales">
+            <li>
+              <a href="mailto:alberto.velasco376@comunidadunir.net"
+                ><ion-icon name="mail"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/alberto-v-g?tab=repositories"
+                ><ion-icon name="logo-github"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/alberto-velasco-13848138"
+                ><ion-icon name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+  </body>
+</html>

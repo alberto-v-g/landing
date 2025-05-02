@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*Nombre de la fuente de Google Fonts*/
+  font-family: "Special Gothic Condensed One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #ff5733;
+}
+
+.box-principal {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  text-align: center;
+}
+
+.box-principal .color-box header {
+  min-height: 4.69rem;
+  height: auto;
+  overflow: hidden;
+}
+
+.box-principal .color-box header .nav-header {
+  width: auto;
+  border: 0.12rem solid grey;
+  border-radius: 0.94rem 3.12rem;
+  height: 4.37rem;
+  background-color: black;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  float: right;
+}
+
+.box-principal .color-box header .nav-header ion-icon {
+  font-size: 4rem;
+  color: #ff5733;
+  background-color: transparent;
+}
+
+.box-principal .color-box header .logo-link {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: navy;
+  background-color: white;
+  border-radius: 1.25rem;
+  padding: 0.62rem 1.25rem;
+  transition: 0.5s;
+  float: left;
+}
+.box-principal .color-box header .logo-link:hover {
+  background-color: red;
+}
+
+.box-principal .color-box header .nav-header .list-header {
+  display: inline-block;
+  background-color: transparent;
+}
+.box-principal .color-box header .nav-header .list-header li {
+  list-style: none;
+  float: left;
+  margin-right: 1.25rem;
+}
+.box-principal .color-box header .nav-header .list-header li a.active {
+  text-decoration: underline;
+  text-decoration-color: #ff5733;
+  text-underline-offset: initial;
+  text-decoration-thickness: 0.5rem;
+}
+.box-principal .color-box header .nav-header .list-header li a {
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  position: relative;
+  top: -19px;
+  left: 15px;
+}
+
+.box-principal .color-box {
+  background-color: black;
+  height: 77vh;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+  top: 11%;
+}
+
+.box-principal .color-box .contenido {
+  padding: 3.12rem 0;
+}
+
+.box-principal .color-box .contenido .titulo {
+  font-family: "Special Gothic Condensed One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+}
+.box-principal .color-box .contenido .titulo .descripcion {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  text-align: justify;
+  color: white;
+ 
+}
+.box-principal .color-box .contenido .titulo form {
+  text-align: left;
+}
+.box-principal .color-box .contenido .titulo form .form-box{
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  
+}
+.box-principal .color-box .contenido .titulo form .form-box legend{
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.box-principal .color-box .contenido .titulo form .form-box .bloque-form div label,
+.box-principal .color-box .contenido .titulo form .form-box .bloque-form div input{
+  font-size: 1.5rem;
+  display:block;
+  width: 100%;
+}
+.box-principal .color-box .contenido .titulo form .form-box .bloque-form div label,
+.box-principal .color-box .contenido .titulo form .form-box .textarea-form label{
+  margin-bottom: 0.8rem;
+}
+.box-principal .color-box .contenido .titulo form .form-box .bloque-form {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.box-principal .color-box .contenido .titulo form .form-box .textarea-form {
+  width: 100%;
+
+}
+.box-principal .color-box .contenido .titulo form .form-box .textarea-form label{
+  font-size: 1.5rem;
+  display:block;
+  width: 100%;
+}
+.box-principal .color-box .contenido .titulo form .form-box .textarea-form textarea {
+  font-size: 1.5rem;
+  width: 100%;
+  height: 8rem;
+}
+.box-principal .color-box .contenido .titulo form .form-box .bloque-form div{
+  width: 49%;
+  float: left;
+}
+.box-principal .color-box .contenido .titulo form .form-box div .button{
+ padding: 0.5rem;
+ font-size: 1.5rem;
+ display: inline-block;
+}
+.box-principal .color-box .contenido .titulo form .form-box .bloque-form div:first-child{
+  margin-right: 1%;
+}
+.box-principal .color-box .contenido .titulo form .form-box .bloque-form div:last-child{
+  margin-left: 1%;
+}
+
+.box-principal .color-box .contenido .titulo .desc-form{
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.box-principal .color-box .contenido .titulo h1 {
+  margin-bottom: 0;
+  background-color: transparent;
+}
+.box-principal .color-box .contenido .titulo h2 {
+  margin-top: 0;
+  background-color: transparent;
+}
+.box-principal .color-box .contenido .icon-box {
+  margin: 3.12rem auto 0 auto;
+}
+
+.box-principal .color-box .contenido .icon-box div {
+  width: 111px;
+  height: 137px;
+  margin-right: 1.87rem;
+  background-color: orange;
+  text-align: center;
+  border-radius: 1.25rem;
+  display: inline-block;
+}
+
+.box-principal .color-box .contenido .icon-box div ion-icon {
+  margin-top: 1.06rem;
+  font-size: 6.44rem;
+}
+
+.box-principal .color-box footer {
+  position: absolute;
+  bottom: 18px;
+  right: 0;
+  height: 42px;
+}
+
+.box-principal .color-box footer .copyright {
+  color: white;
+  float: left;
+}
+.box-principal .color-box footer .copyright p {
+  text-align: left;
+}
+
+.box-principal .color-box footer ul {
+  width: auto;
+
+  float: left;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.box-principal .color-box footer ul li {
+  float: left;
+}
+
+.box-principal .color-box footer ul li ion-icon {
+  color: white;
+  font-size: 1.87rem;
+  margin-right: 0.62rem;
+}
+/***************************************************************************/
+
+@media (max-width: 1020px) {
+  .box-principal {
+    height: 100%;
+  }
+  body {
+    background-color: transparent;
+  }
+
+  .box-principal .color-box header {
+    display: block;
+  }
+  .box-principal .color-box header .nav-header {
+    margin-top: 1.25rem;
+    width: 100%;
+  }
+  .box-principal .color-box .contenido .titulo {
+    font-size: 2rem;
+  }
+
+  .box-principal .color-box .contenido .icon-box div ion-icon {
+    font-size: 5rem;
+  }
+  .box-principal .color-box .contenido .icon-box div {
+    width: auto;
+    height: auto;
+  }
+  .box-principal .color-box {
+    width: 100%;
+    height: 100vh;
+  }
+  .box-principal .color-box .contenido .titulo .descripcion {
+    font-size: 1.5rem;
+  }
+  .box-principal .color-box .contenido .titulo form .form-box .bloque-form div {
+    width: 100%;
+  }
+}
+@media (max-width: 479px) {
+  .box-principal .color-box header .logo-link {
+    font-size: 1.8rem;
+  }
+  .box-principal .color-box header .nav-header .list-header li a {
+    font-size: 0.8rem;
+
+    top: 19px;
+  }
+  .box-principal .color-box header .nav-header ion-icon {
+    display: none;
+  }
+  .box-principal .color-box .contenido .titulo {
+    font-size: 1.5rem;
+  }
+  .box-principal .color-box .contenido .icon-box div ion-icon {
+    font-size: 4.5rem;
+  }
+  /* Los div  hijos 1 y 2 de la clase .icon-box */
+  .box-principal .color-box .contenido .icon-box div:nth-child(1),
+  .box-principal .color-box .contenido .icon-box div:nth-child(2) {
+    margin-bottom: 0.62rem;
+  }
+  .box-principal .color-box footer {
+    bottom: 40px;
+  }
+}
