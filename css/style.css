@@ -238,7 +238,7 @@ body {
 }
 /***************************************************************************/
 
-@media (max-width: 1020px) {
+@media (max-width: 992px) {
   .box-principal {
     height: 100%;
   }
@@ -275,7 +275,7 @@ body {
     width: 100%;
   }
 }
-@media (max-width: 479px) {
+@media (max-width: 576px) {
   .box-principal .color-box header .logo-link {
     font-size: 1.8rem;
   }
